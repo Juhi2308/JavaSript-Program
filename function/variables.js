@@ -5,6 +5,7 @@ accountCity = "Samastipur"
 
 
 let accountState;
+// this is account 
 //accountId = 4 //not allowed
 
 accountEmail = "juhik4567@gmail.com"
