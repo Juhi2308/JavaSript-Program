@@ -194,14 +194,29 @@ if(mode === "dark") console.log(mode);//this statement doesn't give any error*/
 
 // TERNARY OPERATORS
 
-let age = 25;
+/*let age = 25;
+let age2 = 30;*/
 
 //let result = age >= 18 ? "adult" : "not adult";
 //console.log(result);
 
-age >= 18 ? console.log("adult") : console.log("not adult");
-let result = age >= 18 ? "adult" : "not adult";
-console.log(result);
+//age >= 18 ? console.log("adult") : console.log("not adult");
+//let result = age >= 18 ? "adult" : "not adult";
+//console.log(result);
+
+/*const coding = ["js", "ruby", "java", "python", "cpp"]
 
 
+const values = coding.forEach( (item) => {
+    console.log(item);
+}
+
+)
+
+console.log(values);*/
+
+const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+const newNums = myNums.filter( (num) =>{} num > 4)
+console.log(newNums);
 
